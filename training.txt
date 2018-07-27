@@ -1,0 +1,62 @@
+GIT:
+
+1.For file level commit & revert.
+
+2.ubuntu@ubuntu:~$ uname –a (to know the machine name)
+Linux ubuntu 4.4.0-130-generic #156~14.04.1-Ubuntu SMP Thu Jun 14 13:54:07 UTC 2018 i686 i686 i686 GNU/Linux
+
+3.ubuntu@ubuntu:~$ cat /etc/*-release (etc has most of the configurations)
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=14.04
+DISTRIB_CODENAME=trusty
+DISTRIB_DESCRIPTION="Ubuntu 14.04.1 LTS"
+NAME="Ubuntu"
+VERSION="14.04.1 LTS, Trusty Tahr"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 14.04.1 LTS"
+VERSION_ID="14.04"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL=http://bugs.launchpad.net/ubuntu/
+
+4.Drives in Linux:
+1. bin(binaries)
+2. boot(boot information)
+3. home(user information)
+4. etc(configurations)
+5. dev(devices) 
+
+5.rm dev/ (rm is to remove)
+
+6.mysql < session.sh (send the content from session.sh to mysql)
+
+7.ps –ef | grep apache (find process running in apache)
+
+8.> sent to the file 
+
+9.top ( for size)
+
+10.kill -9 <processed> (soft kill)
+
+11.kill –r apache ( kills all the process in apache)
+
+12.grep –E ‘firstwordtobesearched|secondwordtobbesearched’ filename
+
+13.dd (delete the line)
+
+14.d$ (will delete the entire line from the cursor starting)
+
+15.^[a-z A-Z]$
+
+16. ^[a-z A-Z] {8,48} (limiting from 8 to 48 characters)
+
+17.EXPLAIN <select * from employee> (this checks the query for good or bad health especially for joins) 
+10:1 is good
+100:1 is okay
+>1000 all worst
+
+Lookups vs results
+
+
+
